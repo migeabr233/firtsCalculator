@@ -1,0 +1,59 @@
+body{
+ background-color: aqua;
+ padding:25px ;
+}
+h1,h2{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 1px;
+}
+.input_padron,.resultado{
+    text-align: center;
+}
+/* div resultado que contiene el textarea */
+.resultado{
+    margin:1px ;
+}
+.label_resultado{
+    /* margin: ; */
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    /* background-color: black; */
+    margin:1px;
+    border: 1px;
+}
+#botonesCalculo{
+    /* background-color: black; */
+    display: block;
+    text-align: center;
+    /* background-color: blue; */
+    margin:5px ;
+    border: 1px;
+}
+.boton_padron{
+    border: 1px;
+    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+    display: inline;
+    font-size: 15px;
+    background-color: rosybrown;
+    margin:0px 0px;
+    padding: 0px 0px;
+    font-weight: 100;
+}
+/* HReconociendo mouse y cambiando fuente
+de los botones */
+.boton_padron:hover{
+    border: 1px;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    display: inline;
+    font-size: 20px;
+    background-color:brown;
+    font-weight: 200;
+}

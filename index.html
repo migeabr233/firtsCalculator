@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"   >
+  </head>
+  <body>
+    <header></header>
+    <!-- <nav></nav> -->
+    <main>
+      <h1>Calculadora</h1>
+      <div class="input_padron">
+        <label for="primernumeroCalcular">A</label>
+        <input id="primernumeroCalcular" />
+      </div>
+      <h2>Y</h2>
+      <div class="input_padron">
+        <label for="segundonumeroCalcular">B</label>
+        <input id="segundonumeroCalcular" />
+      </div>
+      <section id="botonesCalculo">
+        <button id="multiplicar" class="boton_padron">*</button>
+        <button id="restar" class="boton_padron">-</button>
+        <button id="dividir" class="boton_padron">/</button>
+        <button id="sumar" class="boton_padron">+</button>
+        <button id="reiniciar" class="boton_padron">Reiniciar</button>
+      </section>
+      <div class="resultado">
+        <label class="label_resultado">Resultado</label>
+        <textarea id="textarea" cols="30" rows="3"></textarea>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
